@@ -82,7 +82,7 @@ function iniciar(){
                             onrendered:function(canvas){
                                 var img = canvas.toDataURL();
                                 $.ajax({
-                                    url:"http://picnic.pe/EscuelaVR/tlsipad/enviar/",
+                                    url:"http://vivecreando.us/enviar/",
                                     data:{
                                         nombre:$("#enviar input[name=nombre]").val(),
                                         email:$("#enviar input[name=email]").val(),
@@ -106,7 +106,7 @@ function iniciar(){
                         break;
                     case "audio":
                         $.ajax({
-                            url:"http://picnic.pe/EscuelaVR/tlsipad/enviar/",
+                            url:"http://vivecreando.us/enviar/",
                             data:{
                                 nombre:$("#enviar input[name=nombre]").val(),
                                 email:$("#enviar input[name=email]").val(),
@@ -128,7 +128,7 @@ function iniciar(){
                         break;
                     case "progra":
                         $.ajax({
-                            url:"http://picnic.pe/EscuelaVR/tlsipad/enviar/",
+                            url:"http://vivecreando.us/enviar/",
                             data:{
                                 nombre:$("#enviar input[name=nombre]").val(),
                                 email:$("#enviar input[name=email]").val(),

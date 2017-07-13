@@ -137,11 +137,11 @@ var ItemProgra = function(num){
 				break;
 			case 3:
 				$("#nave").transition({marginLeft:"+=100px"},1000);
-				if(add) desarrollo+='\tnave.moveLeft="100m";\n';
+				if(add) desarrollo+='\tnave.moveRight="100m";\n';
 				break;
 			case 4:
 				$("#nave").transition({marginLeft:"-=100px"},1000);
-				if(add) desarrollo+='\tnave.moveRight="100m";\n';
+				if(add) desarrollo+='\tnave.moveLeft="100m";\n';
 				break;
 			case 5:
 				$("#nave").transition({rotate:"+=180deg"},1000);

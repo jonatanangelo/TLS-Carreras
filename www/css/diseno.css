@@ -1,0 +1,67 @@
+#diseno{
+	display: none;
+}
+
+#diseno .base .lista{
+	padding-top: 15px;
+}
+#diseno .base .lista .item{
+	float: left;
+	width: 143px;
+	margin-left: 20px;
+}
+
+#diseno .base .lista .item:first-child{
+	margin-left: 0;
+}
+#diseno .base .lista .item .img{
+	background: #000;
+	width: 143px;
+	border-radius: 15px;
+	height: 107px;
+	background-size: cover;
+}
+
+#diseno .base .lista .item .img.e1{
+	background-image: url(../elementos/diseno/e1.png);
+}
+
+#diseno .base .lista .item .img.e2{
+	background-image: url(../elementos/diseno/e2.png);
+}
+
+#diseno .base .lista .item .img.e3{
+	background-image: url(../elementos/diseno/e3.png);
+}
+
+#diseno .base .lista .item.ac .img{
+	width: 139px;
+	height: 103px;
+	border: solid 2px #ebea00;
+}
+#diseno .base .lista .item .nom{
+	text-align: center;
+	color: #fff;
+	font-family: 'azo_sanslight';
+	line-height: 40px;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+#diseno .drag{
+	position: absolute;
+}
+#diseno .drag img{
+	-webkit-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+	height: 200px;
+	width: auto;
+	
+}
+
+#diseno .drag.reset {
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+#diseno .area{
+	background-image: url(../elementos/diseno/e1.png);
+}

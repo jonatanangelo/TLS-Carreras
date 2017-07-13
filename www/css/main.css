@@ -1,0 +1,371 @@
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html{
+	height: 100%;
+}
+body{
+	background: #000;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+.table{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.table .cell{
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.clear{
+	clear: both;
+}
+.container{
+	width: 1024px;
+	height: 768px;
+	margin: auto;
+	background: url(../img/fondo.png);
+	background-size: 1024px auto;
+
+}
+.container.blur{
+	filter:blur(10px);
+}
+.pantalla{
+	width: 1024px;
+	height: 768px;
+	display: none;
+}
+#inicio{
+	display: block;
+	overflow: auto;
+}
+#inicio .logo{
+	width: 305px;
+	height: auto;
+	display: block;
+	margin: 56px auto;
+}
+#inicio .txt{
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	font-family: 'azo_sansbold';
+	letter-spacing: 7px;
+}
+#inicio .lista{
+	display: table;
+	margin: auto;
+	margin-top: 38px;
+}
+#inicio .lista .bt{
+	float: left;
+	background: url(../img/hexa.png);
+	background-size: 185px 213px;
+	width: 185px;
+	height: 213px;
+	margin: 0 50px;
+}
+#inicio .lista .bt.over{
+	opacity: 0.7;
+}
+
+
+.carrera .cab{
+	padding-top: 46px;
+	padding-left: 60px;
+	padding-bottom: 30px;
+
+}
+.carrera .logo{
+	width: 86px;
+	height: auto;
+	float: left;
+	display: block;
+	margin-right: 48px;
+}
+.carrera .cab .txt{
+	
+}
+.carrera .tit{
+	font-family: 'azo_sansbold';
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.sep{
+	width: 38px;
+	height: 4px;
+	background: #ebea00;
+}
+.carrera .ins{
+	color: #fff;
+	font-family: 'azo_sanslight';
+	font-size: 13px;
+	line-height: 20px;
+	padding-top: 0px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.carrera .area{
+	float: left;
+	margin-left: 31px;
+	background: #000;
+	width: 632px;
+	height: 340px;
+	
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+.carrera .objetos{
+	width: 301px;
+	height: 340px;
+	border-radius: 10px;
+	margin-right: 31px;
+	float: right;
+	background: #fff;
+	background: #ccc;
+	background-size: 297px 340px;
+	box-shadow: 5px 10px 50px rgba(0,0,0,0.6);
+	overflow: auto;
+	background: url(../img/purpura.png);
+}
+.carrera .objetos table{
+	width: 100%;
+	
+}
+.carrera .objetos .tit{
+	font-size: 20px;
+	text-align: center;
+	line-height: 60px;
+}
+.carrera .objetos .cuadro{
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	overflow: auto;
+	border-radius: 10px;
+
+	
+}
+.carrera .objetos .down{
+	width: 30px;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+}
+.carrera .objetos .lista{
+	
+}
+.carrera .objetos .item{
+	width: 50%;
+	height: 110px;
+	background-color: #fff;
+	
+	
+	
+	position: relative;
+}
+.carrera .objetos .item img{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+
+}
+.carrera .objetos .item .nom{
+	padding: 5px 20px;
+	text-align: center;
+	font-family: 'azo_sanslight';
+	font-size: 13px;
+}
+.carrera .objetos .item .img{
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+.carrera .objetos .item .img.over{
+	opacity: 0.7;
+}
+
+
+.carrera .objetos .item .add{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 0.5;
+	margin: -10px;
+	display: none;
+}
+.carrera .base{
+	width: 632px;
+	float: left;
+	margin-left: 31px;
+	margin-top: 15px;
+}
+.carrera .base > .nom{
+	line-height: 50px;
+	color: #fff;
+	font-family: 'azo_sansbold';
+	font-size: 20px;
+	letter-spacing: 4px;
+}
+
+.carrera .botones{
+	float: right;
+	width: 300px;
+	margin-top: 105px;
+	margin-right: 31px;
+}
+.bt{
+	width: 139px;
+	height: 56px;
+	float: left;
+	border-radius: 5px;
+
+}
+.bt.cancelar{
+	background-color: rgba(228,28,113,1);
+	border-bottom: solid 4px #d584ad;
+	font-size: 17px;
+	text-align: center;
+	line-height: 56px;
+	color: #fff;
+	font-family: 'azo_sansbold';
+	letter-spacing: 2px;
+	float: right;
+}
+.bt.cancelar.over{
+	background-color: #db4f8b;
+}
+.bt.enviar{
+	background-color: #1cb0e6;
+	border-bottom: solid 4px #428aa5;
+	font-size: 17px;
+	text-align: center;
+	line-height: 56px;
+	color: #fff;
+	font-family: 'azo_sansbold';
+	letter-spacing: 1px;
+	float: left;
+
+}
+.bt.enviar.over{
+	background-color:#86d2ee;
+}
+
+
+/* -- */
+
+
+#cubre{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.7);
+	display: none;
+}
+#cubre .cuadro{
+	background: #fff;
+	width: calc(512px - 40px);
+	height: calc(400px);
+	margin: auto;
+	padding: 30px 20px;
+	font-family: 'azo_sansbold';
+	color: #000;
+}
+#enviar{
+	
+	
+	display: none;
+	
+}
+#enviar .tit{
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 3px;
+	line-height: 50px;
+}
+#enviar .sep{
+	margin: auto;
+	background-color: #ffff00;
+	margin-bottom: 30px;
+}
+#enviar label{
+	display: block;
+	font-size: 23px;
+	margin-top: 15px;
+	line-height: 40px;
+}
+#enviar input{
+	border: solid 2px #dedede;
+	font-family: 'azo_sanslight';
+	font-size: 23px;
+	width: calc(100% - 24px);
+	padding: 0px 10px;
+	border-radius: 0px;
+	line-height: 52px;
+	-webkit-appearance: none;
+}
+#enviar .botones{
+	margin-top: 28px;
+}
+#enviar .bt{
+	width: 225px;
+	height: 70px;
+	line-height: 70px;
+}
+
+#gracias{
+
+	display: none;
+	height: 100%;
+}
+
+#gracias .msg{
+	text-align: center;
+	font-size: 40px;
+}
+#gracias .sub{
+	font-family: 'azo_sanslight';
+	text-align: center;
+	line-height: 80px;
+	font-size: 20px;
+}
+#gracias .bt.cancelar{
+	margin: auto;
+	float: none;
+}
+#carga{
+	width: 100%;
+	height: 100%;
+	background: url(../img/loading.gif) no-repeat center center;
+	background-size: 100px 100px;
+	display: none;
+}

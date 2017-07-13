@@ -1,0 +1,204 @@
+#audio{
+	display: none;
+}
+#audio{
+	
+}
+#audio .timeline{
+
+}
+#audio .timeline .tiempo{
+	float: right;
+	background-color: #232323;
+	margin-left: 60px;
+	width: calc(100% - 66px);
+	color: #fff;
+	border:solid 3px #fff;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	position: relative;
+}
+#audio .timeline .tiempo .cuadro{
+	position: relative;
+	height: 30px;
+	
+	overflow: hidden;
+}
+#audio .timeline .tiempo .cuadro .marca{
+	position: absolute;
+	width:auto;
+	height: 10px;
+}
+#audio .timeline .tiempo .n{
+	float: left;
+	width: calc((100% - 10px) / 10);
+	text-align:center;
+	font-family: 'azo_sanslight';
+	font-size: 10px;
+	z-index: 20px;
+	border-left: solid 1px #fff;
+	position: relative;
+	height: 30px;
+
+}
+#audio .timeline .tiempo .n:first-child{
+	border: none;
+}
+#audio .timeline .tiempo .n .txt{
+	position: absolute;
+	width: 30px;
+	background: #232323;
+	text-align:center;
+	height: 20px;
+	padding-top: 3px;
+	margin-left: 40px;
+	
+
+	z-index: 100;
+}
+#audio .canales{
+	background-color:#232323;
+	color: #fff;
+	width: 57px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border:solid 3px #fff;
+	float: left;
+	margin-top: -3px;
+}
+#audio .canales .ch{
+	height: 35px;
+	font-family: 'azo_sansbold';
+	font-size: 20px;
+	color: #fff;
+	text-align:center;
+	line-height: 35px;
+}
+
+#audio .lineas{
+	float: left;
+	background:#232323;
+	border-bottom: solid 3px #fff; 
+	width: calc(100% - 66px);
+	height: calc(35 * 4px);
+	border-right: solid #fff 3px;
+	overflow: hidden;
+	position: relative;
+}
+#audio .lineas .cuadro{
+	height: 100%;
+	position: relative;
+}
+#audio .lineas .cuadro .lis{
+	height: 100%;
+	position: relative;
+}
+#audio .lineas .li{
+	height: calc((100% - 6px)/4);
+	border-top: 2px solid #000;
+}
+#audio .lineas .li:first-child{
+	border: none;
+	border-top: none;
+}
+
+#audio .lineas .li .snd{
+	width: 30px;
+	height: 100%;
+	background: #ff0000;
+	float: left;
+}
+
+#audio .current{
+	position: absolute;
+	background-color: #ba1f2c;
+	width: 2px;
+	height: calc(100% + 30px);
+	margin-top: -30px;
+	z-index: 600;
+}
+#audio .lineas .li.l1{
+	background: rgba(248,80,50,1);
+	background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,1)), color-stop(50%, rgba(241,111,92,1)), color-stop(51%, rgba(246,41,12,1)), color-stop(71%, rgba(240,47,23,1)), color-stop(100%, rgba(231,56,39,1)));
+	background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+	background: -o-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+	background: -ms-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+	background: linear-gradient(to bottom, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827', GradientType=0 );
+
+}
+#audio .lineas .li.l2{
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(50%, rgba(113,206,239,1)), color-stop(51%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
+background: -webkit-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+background: -o-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
+
+}
+#audio .lineas .li.l3{
+	background: rgba(203,96,179,1);
+background: -moz-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(203,96,179,1)), color-stop(50%, rgba(193,70,161,1)), color-stop(51%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+background: -webkit-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: -o-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: -ms-linear-gradient(top, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+background: linear-gradient(to bottom, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 50%, rgba(168,0,119,1) 51%, rgba(219,54,164,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=0 );
+}
+
+#audio .lineas .li.l4{
+	background: rgba(164,179,87,1);
+background: -moz-linear-gradient(top, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(164,179,87,1)), color-stop(100%, rgba(117,137,12,1)));
+background: -webkit-linear-gradient(top, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: -o-linear-gradient(top, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: -ms-linear-gradient(top, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+background: linear-gradient(to bottom, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c', GradientType=0 );
+}
+#audio .lineas .li .bt{
+	float: left;
+	width: 40px;
+	height: 100%;
+	background-image: url("../img/izq.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 20px 20px;
+}
+#audio .lineas .li .bt.sig{
+	float: right;
+	background-image: url("../img/der.png");
+}
+
+#audio .lineas .li .nom{
+	height: 100%;
+	width: calc(100% - 80px);
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+	float: left;
+	font-family: 'azo_sansbold';
+}
+
+#audio .play{
+	width: 64px;
+	height: 64px;
+	bottom: 10px;
+	left: 10px;
+	position: absolute;
+	background-image: url(../img/play2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 64px 64px;
+	z-index: 10;
+}
+#audio .play.stop{
+	background-image: url(../img/stop2.png);
+}
+#audio .objetos .item img{
+	width: 30px;
+	height: auto;
+	margin-bottom: 10px;
+}

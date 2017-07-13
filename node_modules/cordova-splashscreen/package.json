@@ -1,0 +1,111 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-splashscreen",
+        "scope": null,
+        "escapedName": "cordova-splashscreen",
+        "name": "cordova-splashscreen",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Applications/MAMP/htdocs/toulouse/EscuelaVR/appcarreras/node_modules"
+    ]
+  ],
+  "_from": "cordova-splashscreen@latest",
+  "_id": "cordova-splashscreen@3.1.0-3",
+  "_inCache": true,
+  "_location": "/cordova-splashscreen",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "wandrille",
+    "email": "w@ndrille.fr"
+  },
+  "_npmVersion": "2.7.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-splashscreen",
+    "scope": null,
+    "escapedName": "cordova-splashscreen",
+    "name": "cordova-splashscreen",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-splashscreen/-/cordova-splashscreen-3.1.0-3.tgz",
+  "_shasum": "185178f3d24e32dfef8fd0f20d26a63028f2918e",
+  "_shrinkwrap": null,
+  "_spec": "cordova-splashscreen",
+  "_where": "/Applications/MAMP/htdocs/toulouse/EscuelaVR/appcarreras/node_modules",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-splashscreen/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-splashscreen",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "blackberry10",
+      "wp8",
+      "windows8",
+      "windows",
+      "tizen"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova Splashscreen Plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "185178f3d24e32dfef8fd0f20d26a63028f2918e",
+    "tarball": "https://registry.npmjs.org/cordova-splashscreen/-/cordova-splashscreen-3.1.0-3.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=3.6.0"
+    }
+  ],
+  "gitHead": "12dcd57d51cf0b90ad748b388831c87eead7338b",
+  "homepage": "https://github.com/apache/cordova-plugin-splashscreen",
+  "keywords": [
+    "cordova",
+    "splashscreen",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ubuntu",
+    "cordova-ios",
+    "cordova-blackberry10",
+    "cordova-wp8",
+    "cordova-windows8",
+    "cordova-windows",
+    "cordova-tizen"
+  ],
+  "license": "Apache 2.0",
+  "maintainers": [
+    {
+      "name": "wandrille",
+      "email": "w@ndrille.fr"
+    }
+  ],
+  "name": "cordova-splashscreen",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-splashscreen.git"
+  },
+  "scripts": {},
+  "version": "3.1.0-3"
+}

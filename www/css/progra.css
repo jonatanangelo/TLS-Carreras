@@ -1,0 +1,86 @@
+#progra{
+	display: none;
+}
+#progra .area{
+	position: absolute;
+	height: 510px;
+	background:none;
+}
+#progra .mov{
+	width: 300px;
+	height: 510px;
+	background: url(../elementos/progra/espacio.png);
+	background-size: cover;
+	background-position: center center;
+	float: left;
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+#progra .mov img{
+	width: 80px;
+	height: auto;
+	left: calc(50% - 40px);
+	top: calc(50% - 40px);
+	position: absolute;
+}
+#progra .codigo{
+	width: 300px;
+	height: 510px;
+	background-color: #1d1f20;
+	float: right;
+	font-size: 13px;
+	border-radius: 15px;
+	overflow: hidden;
+}
+#progra .codigo .cuadro{
+	padding: 30px;
+	height: 390px;
+	overflow: auto;
+}
+#progra .codigo pre{
+	clear: both;
+	color: #fa9765;
+	text-align: left;
+}
+#progra .btns{
+	background: #fff;
+	height: 60px;
+}
+#progra .btns .con{
+	margin: auto;
+	display: table;
+}
+#progra .btns .reload{
+	background: url("../img/reload.png");
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-position: center center;
+	margin: 10px 20px;
+}
+#progra .btns .reload.over{
+	opacity: 0.7;
+}
+#progra .btns .play{
+	background: url("../img/media-play-symbol.png");
+	background-repeat: no-repeat;
+	background-size: 30px 30px;
+	width: 40px;
+	float: left;
+	margin: 10px 20px;
+	height: 40px;
+	background-position: center center;
+}
+#progra .btns .play.stop{
+	background-image: url("../img/video-player-stop-button.png");
+}
+#progra .btns .play.over{
+	opacity: 0.7;
+}
+#progra .objetos .item.over{
+	background-color: #eee;
+}

@@ -28,10 +28,10 @@ var app = {
 };
 
 app.initialize();
-
+var alumno = 1;
 
 function iniciar(){
-
+   
 
     diseno = new Diseno();
     
@@ -55,7 +55,11 @@ function iniciar(){
         $("#progra").fadeIn(300);
         eleccion = "progra";
     });
-
+    new Boton($("#enviar .opc .cb"),function(bt){
+        $("#enviar .opc .cb").removeClass("sel");
+        bt.addClass("sel");
+        alumno = bt.data("val");
+    })
 
 
     new Boton($(".pantalla .botones .bt.enviar"),function(bt){
@@ -71,7 +75,7 @@ function iniciar(){
         new Boton($("#enviar .bt.enviar"),function(){
             
 
-            if($("#enviar input[name=nombre]").val()!="" && $("#enviar input[name=email]").val()!=""){
+            if($("#enviar input[name=nombre]").val()!="" && $("#enviar input[name=email]").val()!="" && $("#enviar input[name=celular]").val()!=""){
 
                 $("#enviar").hide();
                 $("#carga").fadeIn(300);
@@ -87,6 +91,8 @@ function iniciar(){
                                         nombre:$("#enviar input[name=nombre]").val(),
                                         email:$("#enviar input[name=email]").val(),
                                         carrera:"diseno",
+                                        celular:$("#enviar input[name=celular]").val(),
+                                        alumno:alumno,
                                         img:img
                                     },
                                     type:"POST",
@@ -94,6 +100,7 @@ function iniciar(){
                                         if(res=="ok"){
                                             $("#enviar input[name=nombre]").val("");
                                             $("#enviar input[name=email]").val("");
+                                            $("#enviar input[name=celular]").val("");
                                             $("#carga").hide();
                                             $("#gracias").fadeIn(300);
                                         }
@@ -111,6 +118,8 @@ function iniciar(){
                                 nombre:$("#enviar input[name=nombre]").val(),
                                 email:$("#enviar input[name=email]").val(),
                                 carrera:"audio",
+                                celular:$("#enviar input[name=celular]").val(),
+                                alumno:alumno,
                                 audios:canales.join(",")
                             },
                             type:"POST",
@@ -118,6 +127,7 @@ function iniciar(){
                                 if(res=="ok"){
                                     $("#enviar input[name=nombre]").val("");
                                     $("#enviar input[name=email]").val("");
+                                    $("#enviar input[name=celular]").val("");
                                     $("#carga").hide();
                                     $("#gracias").fadeIn(300);
                                 }
@@ -133,6 +143,8 @@ function iniciar(){
                                 nombre:$("#enviar input[name=nombre]").val(),
                                 email:$("#enviar input[name=email]").val(),
                                 carrera:"progra",
+                                celular:$("#enviar input[name=celular]").val(),
+                                alumno:alumno,
                                 comandos:acciones.join(",")
                             },
                             type:"POST",
@@ -140,6 +152,7 @@ function iniciar(){
                                 if(res=="ok"){
                                     $("#enviar input[name=nombre]").val("");
                                     $("#enviar input[name=email]").val("");
+                                    $("#enviar input[name=celular]").val("");
                                     $("#carga").hide();
                                     $("#gracias").fadeIn(300);
                                 }

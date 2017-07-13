@@ -319,7 +319,7 @@ body{
 #cubre .cuadro{
 	background: #fff;
 	width: calc(512px - 40px);
-	height: calc(400px);
+	height: 600px;
 	margin: auto;
 	padding: 30px 20px;
 	font-family: 'azo_sansbold';
@@ -365,6 +365,29 @@ body{
 	width: 225px;
 	height: 70px;
 	line-height: 70px;
+}
+
+#enviar .opc{
+	float: left;
+	width: 100px;
+}
+#enviar .alumno{
+	padding-top: 10px;
+}
+#enviar .opc .t{
+	float: left;
+	width: 30px;
+	padding-top: 7px;
+}
+#enviar .opc .cb{
+	width: 35px;
+	float: left;
+	height: 35px;
+	border-radius: 6px;
+	border: solid 2px #dedede;
+}
+#enviar .opc .cb.sel{
+	background-color: #000;
 }
 
 #gracias{

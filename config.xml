@@ -29,6 +29,5 @@
     <preference name="AllowInlineMediaPlayback" value="true" />
     <engine name="ios" spec="^4.4.0" />
     
-    <plugin name="org.apache.cordova.splashscreen" spec="0.2.7" source="pgb" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
 </widget>

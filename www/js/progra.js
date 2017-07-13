@@ -136,7 +136,7 @@ var ItemProgra = function(num){
 				if(add) desarrollo+='\tnave.moveDown="100m";\n';
 				break;
 			case 3:
-				$("#nave").transition({marginleft:"+=100px"},1000);
+				$("#nave").transition({marginLeft:"+=100px"},1000);
 				if(add) desarrollo+='\tnave.moveLeft="100m";\n';
 				break;
 			case 4:

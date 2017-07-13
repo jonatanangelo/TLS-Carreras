@@ -92,6 +92,8 @@ function iniciar(){
                                     type:"POST",
                                     success:function(res){
                                         if(res=="ok"){
+                                            $("#enviar input[name=nombre]").val("");
+                                            $("#enviar input[name=email]").val("");
                                             $("#carga").hide();
                                             $("#gracias").fadeIn(300);
                                         }
@@ -114,6 +116,8 @@ function iniciar(){
                             type:"POST",
                             success:function(res){
                                 if(res=="ok"){
+                                    $("#enviar input[name=nombre]").val("");
+                                    $("#enviar input[name=email]").val("");
                                     $("#carga").hide();
                                     $("#gracias").fadeIn(300);
                                 }
@@ -134,6 +138,8 @@ function iniciar(){
                             type:"POST",
                             success:function(res){
                                 if(res=="ok"){
+                                    $("#enviar input[name=nombre]").val("");
+                                    $("#enviar input[name=email]").val("");
                                     $("#carga").hide();
                                     $("#gracias").fadeIn(300);
                                 }

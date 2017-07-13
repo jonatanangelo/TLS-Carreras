@@ -82,6 +82,15 @@ body{
 	height: 213px;
 	margin: 0 50px;
 }
+#inicio .lista .bt.c1{
+	background-image: url("../img/diseno.png");
+}
+#inicio .lista .bt.c2{
+	background-image: url("../img/comunicacion.png");
+}
+#inicio .lista .bt.c3{
+	background-image: url("../img/programacion.png");
+}
 #inicio .lista .bt.over{
 	opacity: 0.7;
 }

@@ -16,6 +16,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <icon height="167" platform="ios" src="res/icon/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" width="167" />
+    <icon height="152" platform="ios" src="res/icon/ios/AppIcon.appiconset/Icon-App-76x76@2x.png" width="152" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>

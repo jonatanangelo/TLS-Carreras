@@ -57,7 +57,7 @@ body{
 	overflow: auto;
 }
 #inicio .logo{
-	width: 305px;
+	width: 260px;
 	height: auto;
 	display: block;
 	margin: 56px auto;
@@ -79,9 +79,25 @@ body{
 	background: url(../img/hexa.png);
 	background-size: 185px 213px;
 	width: 185px;
-	height: 213px;
+	height: 290px;
 	margin: 0 50px;
+	
+	background-repeat: no-repeat;
+	background-position: top;
+	position: relative;
 }
+#inicio .lista .bt .nom{
+	position: absolute;
+	bottom: 0;
+	font-family: 'azo_sanslight';
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+}
+
+
 #inicio .lista .bt.c1{
 	background-image: url("../img/diseno.png");
 }

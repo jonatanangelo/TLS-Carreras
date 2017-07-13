@@ -1,5 +1,5 @@
-var listaaudios = new Array("","v1.wav","v2.wav","v3.wav");
-var audionombres = new Array("-","CABALLO","MOTO","CARRO");
+var listaaudios = new Array("","musica1.mp3","musica2.mp3","musica3.mp3","amb1.mp3","amb2.mp3","amb3.mp3","motor1.mp3","motor2.mp3","motor3.mp3","nave1.mp3","nave2.mp3","nave3.mp3");
+var audionombres = new Array("-","MÚSICA 1","MÚSICA 2","MÚSICA 3","CLASES","ESPACIO","TIABAYA","NAVE","AVIONETA","MOTO","NAVE 1","NAVE 2","NAVE 3");
 
 var canales = new Array(0,0,0,0);
 

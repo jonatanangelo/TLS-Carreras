@@ -28,6 +28,6 @@
     <splash height="1536" src="res/screen/ios/screen-ipad-landscape-2x.png" width="2048" />
     <preference name="AllowInlineMediaPlayback" value="true" />
     <engine name="ios" spec="^4.4.0" />
-    
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
 </widget>
